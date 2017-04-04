@@ -14,19 +14,10 @@ import com.linecorp.bot.model.message.TextMessage;
 import com.linecorp.bot.spring.boot.annotation.EventMapping;
 import com.linecorp.bot.spring.boot.annotation.LineMessageHandler;
 
-@SpringBootApplication
-@LineMessageHandler
-public class LineEventHandler extends SpringBootServletInitializer{
-	// for war file  
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(LineEventHandler.class);
-    }	
-	
-    public static void main(String[] args) {
-        SpringApplication.run(LineEventHandler.class, args);
-    }
 
+@LineMessageHandler
+public class LineEventHandler{
+	
     @EventMapping
     public TextMessage handleTextMessageEvent(MessageEvent<TextMessageContent> event) {
         System.out.println("event: " + event);
