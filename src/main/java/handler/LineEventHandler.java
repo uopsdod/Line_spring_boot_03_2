@@ -43,27 +43,27 @@ public class LineEventHandler extends SpringBootServletInitializer{
 //    reference: http://kikutaro777.hatenablog.com/entry/2017/01/16/230122
 //    @EventMapping
 //    public Message handleStickerMessage(MessageEvent<StickerMessageContent> event) {
-//        return new TextMessage("¶K¹Ï¤w¶Ç°e");
+//        return new TextMessage("ï¿½Kï¿½Ï¤wï¿½Ç°e");
 //    }
 //        
 //    @EventMapping
 //    public Message handleImageMessage(MessageEvent<ImageMessageContent> event) {
-//        return new TextMessage("¹Ï¤ù¤w¶Ç°e");
+//        return new TextMessage("ï¿½Ï¤ï¿½ï¿½wï¿½Ç°e");
 //    }
 //        
 //    @EventMapping
 //    public Message handleVideoMessage(MessageEvent<VideoMessageContent> event) {
-//        return new TextMessage("¼v¤ù¤w¶Ç°e");
+//        return new TextMessage("ï¿½vï¿½ï¿½ï¿½wï¿½Ç°e");
 //    }
 //        
 //    @EventMapping
 //    public Message handleAudioMessage(MessageEvent<AudioMessageContent> event) {
-//        return new TextMessage("­µÀÉ¤w¶Ç°e");
+//        return new TextMessage("ï¿½ï¿½ï¿½É¤wï¿½Ç°e");
 //    }
 //
 //    @EventMapping
 //    public Message handleFollowEvent(FollowEvent event) {
-//        return new TextMessage("¤w°lÂÜ¥»¸s²Õ");
+//        return new TextMessage("ï¿½wï¿½lï¿½Ü¥ï¿½ï¿½sï¿½ï¿½");
 //    }    
     
 }
